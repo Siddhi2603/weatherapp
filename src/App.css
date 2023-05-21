@@ -1,0 +1,32 @@
+.weatherBg{
+background:url("https://image.shutterstock.com/image-photo/lightning-thunderstorm-flash-over-night-260nw-1145259947.jpg");
+height: 50vh;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+}
+.heading{
+  color: white;
+  font-weight: 700;
+}
+
+.weatherResultBox{
+  margin: auto;
+  width: 600px ;
+  height: 300px;
+}
+.weatherIcon{
+ margin-top: 2rem;
+ width: 100px;
+ height: 100px;
+}
+.weatherCity{
+  font-size: 35px;
+  
+
+}
+.weatherTemp{
+  font-size: 55px;
+  font-weight: 700;
+}
